@@ -18,7 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="map" element={<MapPage />} />
         <Route path="about" element={<AboutCompanyPage />} />
 
-        {/* Kamu bisa tambahin halaman lain */}
       </Route>
 
     </Routes>
