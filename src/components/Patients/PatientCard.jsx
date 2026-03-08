@@ -1,4 +1,4 @@
-import "./Patient.css";
+import "../../styles/Patient.css";
 
 const PatientCard = ({ photo, name, address }) => {
   return (

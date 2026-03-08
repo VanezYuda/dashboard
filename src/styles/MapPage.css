@@ -1,0 +1,33 @@
+.map-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Judul */
+.map-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Container scroll */
+.map-wrapper {
+  height: 350px;          /* MAP DIPERKECIL */
+  overflow-y: auto;       /* BISA SCROLL */
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;             /* DI BAWAH NAVBAR */
+}
+
+/* Leaflet map */
+.leaflet-map {
+  height: 500px;          /* Lebih besar dari wrapper → scroll aktif */
+  width: 100%;
+}
+
+/* 🔥 FIX Z-INDEX LEAFLET */
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1 !important;
+}

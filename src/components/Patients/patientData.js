@@ -21,4 +21,10 @@ export const patientData = [
     address: "Jl. Anggrek Indah, Surabaya",
     photo: foto3,
   },
+  {
+    id: 4,
+    name: "Citra Ayu",
+    address: "Jl. Anggrek Indah, Surabaya",
+    photo: foto3,
+  },
 ];

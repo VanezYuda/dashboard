@@ -382,7 +382,7 @@ nav li {
 
 .chart-grid {
   display: grid;
-  gap: 20px;
+  gap: 15px;
   grid-template-columns: 2fr 1fr;
 }
 
@@ -422,7 +422,7 @@ nav li {
 .chart-box canvas {
   width: 100% !important;
   height: auto !important;
-  max-height: 350px;
+  max-height: 300px;
 }
 
 @media (max-width: 950px) {
